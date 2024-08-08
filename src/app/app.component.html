@@ -3,6 +3,6 @@
   <li [ngClass]="{ active: translateService.currentLang === 'en' }"><a (click)="changeLang('en')">English</a></li>
 </ul>
 
-<p>items in panier : {{ panierService.panier().length }}</p>
+<p>items in panier : {{ count() }}</p>
 
 <router-outlet></router-outlet>
